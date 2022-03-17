@@ -5,12 +5,17 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const myjson = JSON.stringify(obj)
     let name = obj.name
 
-   Object.keys(obj).forEach(function(key) {
-    if ( key == "name"){
-        console.log(obj[key])
+   
+    function jsonValueKey(obj, critere) {
+        Object.keys(obj).forEach(function(key) {
+            if ( key == critere){
+                console.log(obj[key] )
+                return (obj[key])
+            }
+          })
     }
-  })
-    function jsonValueKey(obj, key) {
-        
-    }
+
+    let critere = "address";
+
+    jsonValueKey(obj, critere);
 });
