@@ -11,5 +11,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             art.style.display = "none";
        }    
     }
-    getbutton.onclick = showhide;
+    // getbutton.onclick = showhide;
+
+    getbutton.addEventListener('click', showhide);
   });
