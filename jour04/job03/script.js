@@ -22,17 +22,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
                  for (let index = 0; index < table[key].length; index++) {
 
                     let result = table[key][index]
-                    if ( table_list.includes(result)){
-
-                    } else {
-                        table_list.push(result)
-                    }
-                    
-                    
+           
+                        table_list.push(result)                             
                  } 
 
              }),
-            console.log(table_list)
+             final_list = [...new Set(table_list)]
+            console.log(final_list)
       
           }  )
         .catch(error => alert("Erreur : " + error));
