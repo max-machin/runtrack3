@@ -13,12 +13,12 @@
         Mélanger
     </button>
     <div id="melangees">
-        <img src="arc1.png" alt="">
-        <img src="arc2.png" alt="">
-        <img src="arc3.png" alt="">
-        <img src="arc4.png" alt="">
-        <img src="arc5.png" alt="">
-        <img src="arc6.png" alt="">
+        <img id="1" src="arc1.png" alt="">
+        <img id="2" src="arc2.png" alt="">
+        <img id="3" src="arc3.png" alt="">
+        <img id="4" src="arc4.png" alt="">
+        <img id="5" src="arc5.png" alt="">
+        <img id="6" src="arc6.png" alt="">
     </div>
 
     <div id="rangees">
