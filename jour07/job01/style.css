@@ -1,0 +1,7 @@
+main {
+    background-color:var(--bs-gray-300);
+}
+
+.jumbotron {
+    background-color:var(--bs-gray-200);
+}
