@@ -28,7 +28,7 @@
     <main class="main">
         <h1 class="display-5 text-center">LaPlateforme_</h1>
         <div class="container-fluid">
-            <div class="row m-0 d-flex">
+            <div class="row">
                 <div class="col-2">
                     <div class="card">
                         <img src="papillon.jpg" class="card-img-top" alt="...">
@@ -91,9 +91,86 @@
                 </div>
             </div>
         </div>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        <div class="container d-flex justify-content-end mt-5" style="width: 50%">
+            <h5 class="text-right">Installation de AI 9000</h5>
         </div>
+        <div class="container" style="width: 50%">
+            <div class="progress ">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container d-flex justify-content-around mt-5 pb-5">
+        
+        <form action="" class="form-horizontal">
+            <h5>Recevez votre copie gratuite d'internet 2!</h5>
+            <div class="form-row">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Login">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Mot de passe">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@example.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a>URL des internets 2 et 2.1 Beta</a>
+            <div class="form-row">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">DogeCoin</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">https://l33.lptf/dkwb/berlusconimkt/</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <form action="">
+            <div class="form-group ">
+                <label for="inputEmail4">Email adress</label>
+                <input type="email" class="form-control" id="inputEmail4">
+                <small id="passwordHelpBlock" class="form-text text-muted">
+                    We'll never share your email with anyone else.
+                </small>
+            </div>
+            <div class="form-group ">
+                <label for="inputEmail4">Password</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
